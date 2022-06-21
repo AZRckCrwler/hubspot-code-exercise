@@ -4,7 +4,7 @@
   "description": "HubSpot Code Exercise",
   "scripts": {
     "dev": "vite",
-    "start": "vite preview --port 1234",
+    "start": "vite build && vite preview --port 1234",
     "build": "run-p type-check build-only",
     "lint": "run-p js-lint css-lint type-check",
     "build-only": "vite build",
